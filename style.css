@@ -1,0 +1,159 @@
+nav {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+}
+nav h3 {
+    display: inline-block;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav a {
+    padding-top: 1px;
+    float: right;
+    margin-right: 20px;
+    color: black;
+    text-decoration: none;
+    width: 75px;
+    vertical-align: 5px;
+    text-align: center;
+}
+nav a:hover {
+    background-color: rgb(201, 201, 201);
+    width: 75px;
+    height: 30px;
+    
+    display: inline-block;
+    text-align: center;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+body {
+    background-color: blueviolet;
+}
+#home {
+    width: 100%;
+    height: 100vh;
+    background-position:center;
+    background-size: cover;
+    background-image: url("img/home.png");
+}
+section div {
+    width: 100%;
+    height: 100vh;
+}
+#about .text{
+    float: right;
+    width: 38.5%;
+    margin-top: 100px;
+    margin-right: 20%;
+    display: inline-block;
+}
+#about .text h2 {
+    text-align: center;
+}
+#about .text h5 {
+    text-align: center;
+}
+#about .text .p1 {
+   margin-bottom: 20px;
+   margin-top: 10px;
+
+}
+#about .text .p1 span {
+    background-color: rgb(197, 197, 197);
+    width: 60px;
+    text-align: center;
+    height: 20px;
+    display: inline-block;
+}
+#about .text .p2 {
+    opacity: 0.7;
+}
+#about img {
+    width: 300px;
+    margin-left: 15%;
+    margin-top: 100px;
+
+}
+
+
+
+#menu .text{
+    float: left;
+    width: 38.5%;
+    margin-top: 100px;
+    margin-left: 20%;
+    display: inline-block;
+}
+#menu .text h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#menu .text h5 {
+    text-align: center;
+}
+#menu .text p {
+
+   margin-bottom: 20px;
+   margin-top: 2px;
+   margin-left: 5px;
+
+}
+#menu .text .p1 span {
+    background-color: rgb(197, 197, 197);
+    width: 60px;
+    text-align: center;
+    height: 20px;
+    display: inline-block;
+}
+#menu .text .p2 {
+    opacity: 0.7;
+}
+#menu img {
+    width: 300px;
+    margin-right: 15%;
+    margin-top: 20px;
+    
+}
+#contact {
+    /* background-color: white; */
+    float: left;
+    padding: 20px;
+    
+}
+#contact h2 {
+    margin-bottom: 30px;
+}
+#contact p {
+    font-size: 12px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+#contact h4 {
+    margin-bottom: 20px;
+
+}
+#contact form input {
+    width: 70%;
+    border: none;
+    border-bottom: 3px solid black;
+    height: 20px;
+    background-color: rgba(6, 6, 10, 0);
+    color: white;
+    font-size: 15px;
+    padding: 15px;
+}
+
+#contact form .submit {
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    display: block;
+    border-bottom: none;
+    border-left: 5px solid black;
+}
