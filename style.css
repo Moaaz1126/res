@@ -33,7 +33,8 @@ nav a:hover {
 
 }
 body {
-    background-color: blueviolet;
+/*     background-color: blueviolet; */
+    background-color: white;
 }
 #home {
     width: 100%;
